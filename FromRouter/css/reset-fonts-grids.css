@@ -1,0 +1,52 @@
+html {
+  color: #000000;
+  background: #ffffff;
+}
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+div, span, input, select {
+  box-sizing: border-box;
+}
+
+img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input, select {
+  outline-color: #000000;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+}

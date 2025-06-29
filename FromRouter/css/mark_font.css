@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MarkPro';
+    font-display: swap;
+    src: url('../css/markpro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MarkProBold';
+    font-display: swap;
+    src: url('../css/markpro-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MarkProHeavy';
+    font-display: swap;
+    src: url('../css/markpro-heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MarkProMedium';
+    font-display: swap;
+    src: url('../css/markpro-medium.woff') format('woff');
+}

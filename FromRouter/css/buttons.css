@@ -1,0 +1,164 @@
+button {
+    min-width: 126px;
+    height: 51px;
+    background-color: #FCCB31;
+    border: 1px none #FCCB31;
+    padding: 0px 29px 0px 29px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #FFE200;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ACAFB2;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+
+/*button position*/
+button.align-bottom {
+    position: absolute;
+    bottom: 60px;
+}
+
+button.align-right {
+    right: 30px;
+}
+
+div.buttongroup {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.buttongroup button {
+    /* padding-top: 4px; */
+    /* padding-bottom: 4px; */
+    /* padding-right: 1px; */
+    margin-left: 15px;
+}
+
+div.align-center button.btn-large {
+    width: 267px;
+}
+
+
+/*button color*/
+button.btn-jade {
+    background-color: #0B637F;
+    border: 1px none #0B637F;
+    color: #FFFFFF;
+}
+
+button.btn-jade:hover {
+    background-color: #267993;
+}
+
+button.btn-pink {
+    background-color: #FF6171;
+    border: 1px none #FF6171;
+    color: #FFFFFF;
+}
+
+button.btn-pink:hover {
+    background-color: #FF8391;
+}
+
+button span {
+    font-family: MarkProHeavy;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+button#btn_qrcode,
+button#btn_guest_qrcode {
+    width: 218px;
+    margin-top: 38px;
+}
+
+/*
+button.submitBtnActive {
+    font-weight: bold;
+}
+
+button.submitBtnInActive span {
+    color: #a4a4a4;
+}
+
+button.submitBtnInActive {
+    color: #a4a4a4;
+}
+
+button.submitBtnInActive:hover {
+    background-color: #ededed;
+    background-image: none;
+    cursor: auto;
+}
+
+div.internal-footer div.buttongroup {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px none #d0d0d0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+div#fooooter div.buttongroup {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-right: 7px;
+    border: 1px none #d0d0d0;
+    border-top-style: solid;
+}
+
+div.lightboxFooter div.buttongroup {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-right: 7px;
+    border: 1px none #999999;
+    border-top-style: solid;
+}
+
+div.help div.lightboxFooter div.buttongroup {
+    border-color: #000000;
+}
+
+div.help div.internal-footer div.buttongroup {
+    border-color: #999999;
+}
+
+div.internal-footer div.buttongroup button,
+div#fooooter div.buttongroup button,
+div.lightboxFooter div.buttongroup button {
+    margin-left: 10px;
+    min-width: 108px;
+}
+
+div.internal-footer div.buttongroup button.fbleft {
+    float: left;
+    margin-left: 4px;
+}
+
+div#lightbox div.internal-footer div.buttongroup button.fbleft {
+    margin-left: 36px;
+}
+
+div.buttongroup button {
+    min-width: 120px;
+}
+
+button.activeBut {
+    border-color: #e20074;
+    background-color: #f4f4f4;
+    cursor: auto;
+}
+
+button.activeBut:hover {
+    border-color: #e20074;
+    background-color: #f4f4f4;
+    cursor: auto;
+}
+*/

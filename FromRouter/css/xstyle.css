@@ -1,0 +1,1145 @@
+/* Defaults */
+* {
+    color: inherit;
+    font-family: MarkPro;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+html {
+    background: none;
+    min-height: 100%;
+}
+
+body {
+    margin: 30px 0px 0px 0px;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-text-size-adjust: none;
+    background: #E3E9EC;
+}
+
+
+/* Headlines*/
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+h1,
+h2 {
+    font-size: 20px;
+    font-family: MarkProBold;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+
+/* default link refer to SG V1.0 p2 */
+a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+    outline: none;
+}
+
+/* Spans inherit the color from their parent */
+a span {
+    color: inherit;
+}
+
+a:focus,
+a:active {
+    border-width: 0px;
+}
+
+a:hover.howto,
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.linebreak {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+table {
+    width: 98%;
+}
+
+table thead tr th,
+table tfoot tr th {
+    height: 48px;
+    font-family: MarkProHeavy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+table thead tr th:last-child {
+    padding-right: 10px;
+}
+
+table tbody tr td {
+    height: 50px;
+    font-family: MarkPro;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+table tbody tr td:last-child {
+    padding-right: 10px;
+}
+
+table tbody tr td label.control-checkbox {
+    margin-bottom: 25px;
+}
+
+table tbody#wifi_device_list tr td,
+table tbody#wired_device_list tr td {
+    font-size: 16px;
+}
+
+table tbody.tbstyle1>tr:nth-child(even)>td,
+table tbody.tbstyle1>tr:nth-child(even)>th {
+    background-color: #EEF0F1;
+}
+
+table tbody.tbstyle2>tr:nth-child(odd)>td,
+table tbody.tbstyle2>tr:nth-child(odd)>th {
+    background-color: #EEF0F1;
+}
+
+table tbody.tbstyle2>tr:nth-child(even)>td,
+table tbody.tbstyle2>tr:nth-child(even)>th {
+    background-color: #FFFFFF;
+}
+
+table tbody.tbstyle3>tr:nth-child(odd)>td,
+table tbody.tbstyle3>tr:nth-child(odd)>th {
+    background-color: #0B637F14;
+}
+
+table tbody.tbstyle3>tr:nth-child(even)>td,
+table tbody.tbstyle3>tr:nth-child(even)>th {
+    background-color: #0B637F38;
+}
+
+table[class*="table"] {
+    margin: 0px 15px 15px 15px;
+}
+
+table.table1 thead,
+table.table1 tfoot,
+table.table4 thead,
+table.table5 thead {
+    background-color: #0B637F;
+    color: #FFFFFF;
+}
+
+table.table2 thead tr th {
+    background: #EEF0F1;
+    font-family: MarkProBold;
+    border-bottom: 1px solid;
+    border-right: 1px #CCCCCC solid;
+}
+
+table.table2 thead tr th:last-child {
+    border-right: 0px;
+}
+
+table.table2 tbody tr td,
+table.table3 tbody tr td {
+    border-right: 1px #CCCCCC solid;
+    padding-left: 0px;
+}
+
+table.table2 tbody tr td:last-child,
+table.table3 tbody tr td:last-child,
+table.table5 tbody tr td:last-child {
+    border-right: 0px;
+}
+
+table.table3 tbody tr td:first-child {
+    background: #EEF0F1;
+    border-right: 1px solid;
+    border-bottom: 1px #FFFFFF solid;
+    font-family: MarkProBold;
+    width: 40%;
+}
+
+table.table4 tbody tr td,
+table.table5 tbody tr td {
+    border-right: 1px #0B637F solid;
+}
+
+table.table4 tbody tr td:first-child {
+    border-left: 1px #0B637F solid;
+}
+
+table.table4 tbody tr:last-child {
+    border-bottom: 1px #0B637F solid;
+}
+
+.tbFontB {
+    font-family: MarkProBold;
+}
+
+.tbTextR {
+    color: #FF0000;
+    font-family: MarkProBold;
+}
+
+.tbTextG {
+    color: #1B9E33;
+    font-family: MarkProBold;
+}
+
+.textGray {
+    color: #999999;
+}
+
+.textR {
+    color: #FF0000;
+}
+
+.textG {
+    color: #1B9E33;
+}
+
+.textB {
+    color: #0000EE;
+}
+
+.font1 {
+    font-family: MarkPro;
+}
+
+.font2 {
+    font-family: MarkProBold;
+}
+
+.font3 {
+    font-family: MarkProHeavy;
+}
+
+.font4 {
+    font-family: MarkProMedium;
+}
+
+.fontsz14 {
+    font-size: 14px;
+}
+
+.fontsz15 {
+    font-size: 15px;
+}
+
+.fontsz16 {
+    font-size: 16px;
+}
+
+.fontsz18 {
+    font-size: 18px;
+}
+
+.fontsz24 {
+    font-size: 24px;
+}
+
+.reset-lineh {
+    line-height: initial;
+}
+
+/* ### The main container holding all content ### */
+div#container {
+    width: 1240px;
+    padding: 0px;
+    margin: auto;
+    position: static;
+    display: block;
+}
+
+/* ### Container holding the content for all styles like ###
+ - Forms
+ - Assistents
+ - Overviews
+*/
+div#contarea {
+    position: relative;
+    width: inherit;
+    margin-top: 24px;
+}
+
+div#maincontentarea {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div#maincontentarea div#tabmenu {
+    width: inherit;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs {
+    width: inherit;
+    height: 44px;
+    display: table;
+    table-layout: fixed;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs li {
+    height: inherit;
+    display: table-cell;
+    background-color: #FFFFFF;
+    border-right: 1px #D2D7DA solid;
+    border-left: 1px #D2D7DA solid;
+    border-bottom: 2px #D2D7DA solid;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs li._active {
+    border-top: 4px #FF6171 solid;
+    border-bottom: 0px;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs li:hover {
+    border-top: 4px #FF6171 solid;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs li a {
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+
+div#maincontentarea div#tabmenu ul.nav-tabs li a div {
+    height: inherit;
+    font-family: MarkProBold;
+    font-size: 16px;
+    color: #575859;
+    padding-top: 4px;
+}
+
+
+div#maincontentarea div#submenu {
+    width: 228px;
+    min-height: 512px;
+    float: left;
+    text-align: left;
+    margin: 35px 0px 0px 20px;
+    border-right: 1px #D2D7DA solid;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li {
+    height: inherit;
+    background-color: #FFFFFF;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li a {
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li a div {
+    height: inherit;
+    font-family: MarkProBold;
+    font-size: 20px;
+    color: #575859;
+    padding: 30px 15px 0px 15px;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li:last-child {
+    padding-bottom: 30px;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li:hover a div {
+    opacity: 0.75;
+}
+
+div#maincontentarea div#submenu ul.nav-tabs li._active a div {
+    color: #0B637F;
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+div#maincontentarea div.cont-left {
+    position: relative;
+    width: 295px;
+    min-height: 669px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.cont-middle {
+    position: relative;
+    width: 502px;
+    min-height: 669px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-left: 23px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.cont-right {
+    position: relative;
+    width: 400px;
+    min-height: 669px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.cont-main {
+    position: relative;
+    width: inherit;
+    min-height: 669px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.cont-list {
+    position: relative;
+    width: 1240px;
+    min-height: 300px;
+    float: left;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.topline {
+    clear: both;
+    height: 0;
+    border-top: 1px solid #DDD;
+    margin: 25px 0 25px;
+}
+
+/*
+div#maincontentarea div.cont-main div.submenu {
+    width: 18%;
+    height: 512px;
+    float: left;
+    border-right: 1px #D2D7DA solid;
+    margin: 40px 0px 40px 40px;
+    text-align: left;
+    overflow: auto;
+}
+div#maincontentarea div.cont-main div.submenu li {
+    height: 60px;
+}
+div#maincontentarea div.cont-main div.submenu li a {
+    text-decoration: none;
+}
+div#maincontentarea div.cont-main div.submenu li a div {
+    font-family: MarkProBold;
+    color: #575859;
+}
+div#maincontentarea div.cont-main div.submenu li:hover a div,
+div#maincontentarea div.cont-main div.submenu li._active a div {
+    color: #0B637F;
+}
+*/
+
+div#maincontentarea div.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#maincontentarea div.align-center div.caption {
+    margin-top: 0px;
+}
+
+div#maincontentarea div.align-left {
+    /* width: 73%; */
+    float: left;
+    text-align: left;
+    margin-left: 45px;
+}
+
+div#maincontentarea div.align-wps {
+    float: left;
+    margin-left: 45px;
+}
+
+div#maincontentarea div.align-wps div.span2 {
+    height: 350px;
+}
+
+div#maincontentarea div.align-right {
+    /* width: 73%; */
+    float: right;
+    text-align: right;
+    margin-right: 45px;
+}
+
+div#maincontentarea div.align-left div.caption {
+    margin-bottom: 35px;
+}
+
+div#maincontentarea div.caption {
+    margin-top: 41px;
+}
+
+div#maincontentarea div.caption span {
+    color: #000000;
+    font-family: MarkProHeavy;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+}
+
+div#maincontentarea div.content {
+    margin-top: 34px;
+    padding-left: 44px;
+    padding-right: 44px;
+    text-align: left;
+}
+
+div#maincontentarea div.cont-desc p {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+}
+
+div#maincontentarea div.infotable {
+    width: 100%;
+}
+
+div#maincontentarea div.infotable ul li {
+    display: flow-root;
+}
+
+div#maincontentarea div.infotable ul.rowh1 li {
+    /* height: 80px; */
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.infotable div span {
+    font-size: 20px;
+}
+
+div#maincontentarea div.infotable div.cont-title span {
+    font-family: MarkProBold;
+    float: left;
+}
+
+
+div#maincontentarea div.helpme,
+div#maincontentarea div.helpme a {
+    color: #0B637F;
+    font-family: MarkProBold;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+div#maincontentarea div.links a {
+    color: #0B637F;
+    font-family: MarkProBold;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div#maincontentarea div.warnmessage {
+    line-height: .75rem;
+}
+
+div#maincontentarea div.warnmessage span {
+    color: #da3a00;
+    font-family: MarkProHeavy;
+    font-size: .75rem;
+    line-height: .75rem;
+}
+
+/* LED status*/
+div#maincontentarea table#ledstatus {
+    width: auto;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 33px;
+}
+
+div#maincontentarea table#ledstatus tbody tr td {
+    padding-left: 0px;
+    background-color: #FFFFFF;
+}
+
+div#maincontentarea table#ledstatus tbody tr td span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 52px;
+}
+
+div#maincontentarea table#ledstatus tbody tr td span.light {
+    background-image: url("../images/icons/led_off.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    margin-right: 12px;
+}
+
+div#maincontentarea table#ledstatus tbody tr td span.green-light {
+    background-image: url("../images/icons/led_green.png");
+}
+
+div#maincontentarea table#ledstatus tbody tr td span.red-light {
+    background-image: url("../images/icons/led_red.png");
+}
+
+div#maincontentarea table#ledstatus tbody tr td span.orange-light {
+    background-image: url("../images/icons/led_orange.png");
+}
+
+div#maincontentarea table#ledstatus tbody tr td span.blue-light {
+    background-image: url("../images/icons/led_blue.png");
+}
+
+.blink_me {
+    animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        background-image: url("../images/icons/led_off.png");
+    }
+}
+
+div#maincontentarea div#modeminfo {
+    margin-top: 42px;
+}
+
+div#maincontentarea div#modeminfo div span {
+    font-size: 20px;
+}
+
+div#maincontentarea div#meshunits {
+    margin-top: 42px;
+    padding-left: 61px;
+}
+
+div#maincontentarea div#configbutton {
+    width: 365px;
+    margin: 62px auto 0px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div#maincontentarea div#configbutton div.subnav {
+    height: 50px;
+    background-color: #0B637F;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#maincontentarea div#configbutton div.subnav:hover {
+    background-color: #267993;
+}
+
+div#maincontentarea div#configbutton div.subnav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#maincontentarea div#configbutton div.subnav a div {
+    padding-top: 10px;
+    color: white;
+    font-family: MarkProMedium;
+}
+
+div#maincontentarea .contalign-center {
+    text-align: center;
+}
+
+div#maincontentarea .reset-top {
+    margin-top: 0px;
+}
+
+div#maincontentarea .reset-bottom {
+    margin-bottom: 0px;
+}
+
+div#maincontentarea .reset-left {
+    margin-left: 0px;
+}
+
+div#maincontentarea .mgleft1 {
+    margin-left: 245px;
+}
+
+div#maincontentarea .mgleft2 {
+    margin-left: 25px;
+}
+
+div#maincontentarea div#show_qrc {
+    margin-top: 15px;
+}
+
+div#maincontentarea div#show_qrc div.control-qband {
+    width: 240px;
+    margin-left: 75px;
+    margin-top: 30px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+div#maincontentarea div#show_qrc div.label-qband,
+div#maincontentarea div#show_qrc span.label-qband {
+    display: none;
+    font-family: MarkProBold;
+}
+
+div#maincontentarea div#qusetionlist div.unfold {
+    width: 746px;
+    margin-bottom: 10px;
+}
+
+.waitingbox {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+div#waitingpane {
+    display: none;
+    z-index: 600000;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding-top: 200px;
+    position: fixed;
+    background-color: rgb(2 2 1 / 40%);
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.help_text {
+    width: 381px;
+    padding: 13px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.help_bannar {
+    width: 381px;
+    height: 47px;
+    padding: 11px;
+    background-color: #00A3AD;
+    margin: auto;
+}
+
+.help_close {
+    float: right;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+div#helpbox {
+    display: none;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding-top: 110px;
+    position: fixed;
+    background: white;
+    background-color: #00000078;
+}
+
+/* Checkbox button*/
+.control-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.control-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    border: 1px solid #C4C4C4;
+}
+
+/* On mouse-over, add a grey background color */
+.control-checkbox:hover input~.checkmark {
+    background: #26799399;
+}
+
+/* When the checkbox is checked, add a blue background */
+.control-checkbox input:checked~.checkmark {
+    background: #0B637F;
+}
+
+/* When the checkbox is disabled, add a grey background */
+.control-checkbox input:disabled~.checkmark {
+    background: #E3E9EC;
+    cursor: default;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.control-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.control-checkbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+/*Radio button*/
+.control-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.control-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radiomark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.control-radio:hover input~.radiomark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.control-radio input:checked~.radiomark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.control-radio input:checked~.radiomark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.control-radio .radiomark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+/*Toggle button*/
+.toggle {
+    overflow: hidden;
+    display: inline-block;
+    width: 76px;
+    height: 36px;
+    background: #575859;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.toggle input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle div {
+    position: relative;
+    left: 0%;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    font-family: MarkProBold;
+    font-size: 16px;
+}
+
+.toggle :checked+div {
+    left: 50%;
+}
+
+/* Default unchecked state */
+.toggle div:before {
+    content: attr(data-unchecked);
+    display: block;
+    width: 50%;
+    height: 36px;
+    background-color: #FFFFFF;
+    color: #575859;
+}
+
+
+/* Checked state */
+.toggle :checked+div:before {
+    content: attr(data-checked);
+    background-color: #FFFFFF;
+    color: #0B637F;
+}
+
+.switchOn {
+    background-color: #0B637F;
+}
+
+
+/* toggle switch button*/
+.toggle-switch {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 45px;
+}
+
+.toggle-switch input#ts_status {
+    display: none;
+}
+
+.toggle-switch input#ts_status+label {
+    height: 100%;
+    width: 100%;
+}
+
+.toggle-switch input#ts_status+label>.status-switch {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #0B637F;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 3px;
+    font-family: MarkProBold;
+}
+
+.toggle-switch input#ts_status+label>.status-switch:before,
+.toggle-switch input#ts_status+label>.status-switch:after {
+    /* border-radius: 2px; */
+    height: calc(100% - 6px);
+    width: calc(50% - 3px);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.toggle-switch input#ts_status+label>.status-switch:before {
+    background-color: white;
+    color: #575859;
+    left: 3px;
+    z-index: 10;
+    content: attr(data-unchecked);
+}
+
+.toggle-switch input#ts_status+label>.status-switch:after {
+    right: 0;
+    content: attr(data-checked);
+}
+
+.toggle-switch input#ts_status:checked+label>.status-switch {
+    background-color: #0B637F;
+}
+
+.toggle-switch input#ts_status:checked+label>.status-switch:after {
+    left: 0;
+    content: attr(data-unchecked);
+}
+
+.toggle-switch input#ts_status:checked+label>.status-switch:before {
+    color: #575859;
+    left: 50%;
+    content: attr(data-checked);
+}
+
+/* LTE signal bar*/
+#signal-strength {
+    height: 30px;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 7px;
+}
+
+#signal-strength li {
+    display: inline-block;
+    width: 7.43px;
+    float: left;
+    height: 100%;
+    margin-right: 3px;
+}
+
+#signal-strength li.bar_5 {
+    padding-top: 0px;
+    height: 23px;
+}
+
+#signal-strength li.bar_4 {
+    padding-top: 3px;
+    height: 20px;
+}
+
+#signal-strength li.bar_3 {
+    padding-top: 6px;
+    height: 17px;
+}
+
+#signal-strength li.bar_2 {
+    padding-top: 8px;
+    height: 15px;
+}
+
+#signal-strength li.bar_1 {
+    padding-top: 10px;
+    height: 13px;
+}
+
+#signal-strength li div {
+    height: 100%;
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#signal-strength li div.whitebar {
+    background: #FFFFFF;
+}
+
+/* bandwidth progress bar*/
+.bandwidth-range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.pb-cont {
+    width: 80%;
+    height: 15px;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #2998D8;
+}
+
+.pb-gray {
+    background-color: #ccc;
+}
+
+.pb {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #F7941D;
+    top: 0;
+    bottom: 0;
+    left: -48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

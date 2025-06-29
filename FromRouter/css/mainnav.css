@@ -1,0 +1,286 @@
+/*Navigation bar*/
+div.nav-header {
+    background: #00A3AD;
+    display: flex;
+    height: 47px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    top: 41px;
+}
+
+div.nav-left {
+    width: 510px;
+    padding-left: 12px;
+    text-align: left;
+    /* cursor: pointer; */
+    display: inline-flex;
+}
+
+div.nav-right {
+    width: 510px;
+    padding-right: 12px;
+    text-align: right;
+    /* cursor: pointer; */
+}
+
+/* div.nav-left:hover,
+div.nav-right:hover {
+    opacity: 0.75;
+    background-color: transparent;
+} */
+
+div.nav-left img,
+div.nav-right img {
+    vertical-align: top;
+}
+
+div.nav-left span,
+div.nav-right span {
+    color: #FFFFFF;
+    font-family: MarkProHeavy;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+div.nav-headerimage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.nav-headerimage img {
+    width: auto;
+    margin-top: 6px;
+}
+
+div#mainmenu nav.navlst {
+    background-color: #ffffff;
+    height: 156px;
+}
+
+div#mainmenu div.navlst-content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+div#mainmenu div.navlst-product,
+div#mainmenu div.navlst-product-long,
+div#mainmenu div.navlst-submenu {
+    float: left;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 238px;
+    height: 62px;
+    background-image: linear-gradient(90deg, #333333 0%, #333333 99.5%, #cccccc 100%);
+    cursor: auto;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+div#mainmenu div.navlst-title {
+    float: left;
+    padding-top: 19px;
+    padding-left: 52px;
+    padding-bottom: 6px;
+    background-image: url("../images/icons/icon_assistent_active.svg");
+    background-repeat: no-repeat;
+    background-position: 12px 16px;
+    background-size: 30px 30px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+*/
+
+div#mainmenu div.navlst-right {
+    overflow: hidden;
+}
+
+div#mainmenu div.navlst-left a,
+div#mainmenu div.navlst-right a {
+    float: left;
+    text-decoration: none;
+    width: 195px;
+    height: 156px;
+    color: #e6e6e6;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 80px 40px;
+    margin-left: 10px;
+}
+
+div#mainmenu div.navlst-left li._active a {
+    height: 149px;
+    border-bottom-color: #0B637F;
+    border-bottom-style: inset;
+    border-bottom-width: 7px;
+}
+
+div#mainmenu div.navlst-left a div,
+div#mainmenu div.navlst-right a div {
+    padding-top: 87px;
+    padding-left: 26px;
+    width: 178px;
+    font-family: MarkProHeavy;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #575859;
+}
+
+div#mainmenu div.navlst-left a:hover div,
+div#mainmenu div.navlst-left li._active a div {
+    color: #0B637F;
+}
+
+div#mainmenu div.navlst-right a {
+    float: right;
+}
+
+li#nav_home a {
+    background-image: url("../images/icons/home.png");
+}
+
+li#nav_home a:hover {
+    background-image: url("../images/icons/home_jade.png");
+}
+
+li#nav_home._active a {
+    background-image: url("../images/icons/home_jade.png");
+}
+
+li#nav_wifi a {
+    background-image: url("../images/icons/wifi.png");
+}
+
+li#nav_wifi a:hover {
+    background-image: url("../images/icons/wifi_jade.png");
+}
+
+li#nav_wifi._active a {
+    background-image: url("../images/icons/wifi_jade.png");
+}
+
+li#nav_settings a {
+    background-image: url("../images/icons/settings.png");
+}
+
+li#nav_settings a:hover {
+    background-image: url("../images/icons/settings_jade.png");
+}
+
+li#nav_settings._active a {
+    background-image: url("../images/icons/settings_jade.png");
+}
+
+li#nav_devices a {
+    background-image: url("../images/icons/connece_devices.png");
+}
+
+li#nav_devices a:hover {
+    background-image: url("../images/icons/connece_devices_jade.png");
+}
+
+li#nav_devices._active a {
+    background-image: url("../images/icons/connece_devices_jade.png");
+}
+
+li#nav_network a {
+    background-image: url("../images/icons/network.png");
+}
+
+li#nav_network a:hover {
+    background-image: url("../images/icons/network_jade.png");
+}
+
+li#nav_network._active a {
+    background-image: url("../images/icons/network_jade.png");
+}
+
+li#nav_help a {
+    margin-right: 10px;
+    background-image: url("../images/icons/help.png");
+}
+
+li#nav_help a:hover {
+    background-image: url("../images/icons/help_jade.png");
+}
+
+li#nav_help._active a {
+    background-image: url("../images/icons/help_jade.png");
+}
+
+li#nav_restart a {
+    background-image: url("../images/icons/restart.png");
+}
+
+li#nav_restart a:hover {
+    background-image: url("../images/icons/restart_jade.png");
+}
+
+li#nav_restart._active a {
+    background-image: url("../images/icons/restart_jade.png");
+}
+
+a.nav-disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+/*
+li#login a {
+    background-image: url("../images/icons/icon_anmelden.svg");
+}
+
+li#login a:hover {
+    background-image: url("../images/icons/icon_anmelden_active.svg");
+}
+
+li#login._active a {
+    background-image: url("../images/icons/icon_anmelden_active.svg");
+}
+
+li#logout a {
+    background-image: url("../images/icons/icon_abmelden.svg");
+}
+
+li#logout a:hover {
+    background-image: url("../images/icons/icon_abmelden_active.svg");
+}
+
+li#logout._active a {
+    background-image: url("../images/icons/icon_abmelden_active.svg");
+}
+
+.pic_mn {
+    float: left;
+    margin-top: -6px;
+    display: none;
+}
+
+li._active a.assbutton {
+    background-color: #CA0068;
+    background-image: none;
+    border-right: none;
+}
+
+li a.assbutton:hover {
+    background-color: #333333;
+    background-image: none;
+    cursor: auto;
+}
+
+li._active a.assbutton:hover {
+    background-color:#9a004d;
+    cursor: auto;
+}
+
+#nav_home a:active {
+    color: #ffffff;
+}
+*/
